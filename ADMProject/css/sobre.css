@@ -1,0 +1,124 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    height: 100vh;
+    max-width: 100vw;
+}
+
+.intro-content{
+    margin-top: 100px;
+    background: url(../Sobre/img/vac1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.seta-content{
+    position: absolute;
+    left: auto;
+    right: calc(50% - 95px / 2);
+    top: 85vh;
+
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 90px;
+
+}
+
+.text-content h1{
+    font-size: 64px;
+    text-align: center;
+    padding-right: 20px; 
+    font-weight: bold;
+}
+
+.text-content h1::after{
+    content: '';
+    background-color: #00ADB5;
+    height: 4px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    display: block;
+}
+
+.text-content h2{
+    font-size: 20px;
+    text-align: center;
+    width: 437px;
+    height: 54px;
+    padding-top: 10px;
+    padding-right: 5px;
+    font-weight:normal;
+}
+
+
+.sobre-content{
+    padding-top: 100px;
+    background-color: aqua;
+}
+
+.cultura-content{
+    background-color: blanchedalmond;
+}
+
+
+
+.sobre-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.second-text-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-text-content h1::after{
+    content: '';
+    background-color: #00ADB5;
+    height: 4px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    display: block;
+
+}
+
+.second-text-content{
+    height: 678px;
+    width: 630px;
+}
+
+
+
+
+
+
