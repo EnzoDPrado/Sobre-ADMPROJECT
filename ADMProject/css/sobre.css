@@ -77,11 +77,11 @@ section{
 
 .sobre-content{
     padding-top: 100px;
-    background-color: aqua;
+
 }
 
 .cultura-content{
-    background-color: blanchedalmond;
+    background-color: #c2dfe3;
 }
 
 
@@ -103,7 +103,7 @@ section{
     content: '';
     background-color: #00ADB5;
     height: 4px;
-    width: 100px;
+    width: 345px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -113,9 +113,188 @@ section{
 }
 
 .second-text-content{
+    margin-left: 100px;
+    padding-top: 10px;
     height: 678px;
     width: 630px;
 }
+
+.second-text-content h1{
+    font-size: 64px;
+}
+
+.second-text-content span{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first-txt{
+    padding-top: 35px;
+    padding-bottom: 45px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.seg-text-content{
+    font-weight: 500;
+    padding-bottom: 300px;
+    font-size: 20px;
+}
+
+.third-text-content{
+    font-size: 25px;
+}
+
+.miss, .vis, .val{
+    color:#00979E;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    transform: translateY(-57px);
+}
+
+.imagem img{
+    height: 470px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#00979E;
+    border-radius: 0px 50px;
+
+
+}
+
+
+.cultura-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cultura-content h1{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.cultura-content h1::after{
+    content: '';
+    background-color: #000000;
+    height: 4px;
+    width: 580px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    display: block;
+}
+
+.cards-content{
+    display: flex;
+    gap: 300px;
+}
+
+.missao-content, .visao-content{
+    height: 297px;
+    width: 341px;
+    background-color: #ffffff;
+}
+
+.missao-content h2, .visao-content h2{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.missao-content h2::after, .visao-content h2::after{
+    content: '';
+    background-color: #00979E;
+    height: 4px;
+    width: 140px;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    position: relative;
+    display: block;
+}
+
+
+
+.missao-content p, .visao-content p{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+
+}
+
+.valores-content{
+    height: 520px;
+    width: 338px;
+    background-color: #ffffff;
+}
+
+.valores-content h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.valores-content h2::after{
+    content: '';
+    background-color: #00979E;
+    height: 4px;
+    width: 140px;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    position: relative;
+    display: block;
+}
+
+.valores-content i{
+    height: 20px;
+    width: 20px;
+    transform: translateY(3px);
+    padding-right: 10px;
+    
+}
+
+.valores-content p{
+    padding-left: 20px;
+    padding-right: 30px;
+    display: flex;
+}
+
+.valores-content ul{
+    list-style: none;
+}
+
+.missao-content, .visao-content, .valores-content{
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+
+
+
+
+
 
 
 
